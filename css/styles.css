@@ -671,6 +671,7 @@ body {
   margin-bottom: 8px;
   background-color: transparent;
   outline: transparent;
+  padding: 0 10px 0 38px;
 }
 
 .modal-input:focus,
