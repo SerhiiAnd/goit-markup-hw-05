@@ -744,3 +744,21 @@ body {
 .modal-text:hover {
   border-color: #4d5ae5;
 }
+
+.btn-start {
+  background: var(--iris);
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  min-width: 169px;
+  margin: 0 auto;
+  border: none;
+  height: 56px;
+  border-radius: 4px;
+  display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
