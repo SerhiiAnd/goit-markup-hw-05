@@ -767,3 +767,45 @@ body {
 .btn-start:focus {
   background-color: #404bbf;
 }
+
+.check-text {
+  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  color: #8e8f99;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+}
+
+.privacy-link {
+  color: #4d5ae5;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+  font-size: 12px;
+}
+
+.check-text span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  margin-right: 12px;
+  fill: transparent;
+}
+
+.modal-check:checked + .check-text span {
+  background-color: var(--accent-color);
+  border: none;
+  fill: #ffffff;
+}
+
+.modal-check:focus + .check-text span {
+  border-color: var(--accent-color);
+}
