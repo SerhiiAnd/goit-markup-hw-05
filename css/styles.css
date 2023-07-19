@@ -790,7 +790,7 @@ body {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
   font-size: 12px;
-  /*margin-right: 8px;*/
+  margin-left: 8px;
 }
 
 .checkbox-icon span {
@@ -811,7 +811,7 @@ body {
   margin-right: 8px;
 }
 
-.modal-check:checked + .modal-check-icon {
+.modal-check:checked + .checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -819,4 +819,59 @@ body {
 
 .modal-check:focus + .modal-check-icon {
   border-color: var(--accent-color);
+}
+
+/*--------------SUBSCRIBE----------*/
+
+.sub {
+}
+.sub-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.sub-form {
+  display: flex;
+  gap: 24px;
+}
+
+.foot-sub {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.btn-sub {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+
+.sub-icon {
+  margin-left: 16px;
+  color: #ffffff;
 }
