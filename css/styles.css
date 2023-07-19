@@ -762,3 +762,8 @@ body {
   display: block;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn-start:hover,
+.btn-start:focus {
+  background-color: #404bbf;
+}
