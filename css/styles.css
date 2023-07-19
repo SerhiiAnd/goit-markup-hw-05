@@ -824,6 +824,8 @@ body {
 /*--------------SUBSCRIBE----------*/
 
 .sub {
+  width: 453px;
+  height: 80px;
 }
 .sub-text {
   margin-bottom: 16px;
@@ -837,6 +839,9 @@ body {
 .sub-form {
   display: flex;
   gap: 24px;
+}
+
+.sub-label {
 }
 
 .foot-sub {
@@ -873,5 +878,4 @@ body {
 
 .sub-icon {
   margin-left: 16px;
-  color: #ffffff;
 }
