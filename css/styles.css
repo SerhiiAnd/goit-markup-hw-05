@@ -661,6 +661,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 16px;
+  color: #2e2f42;
 }
 
 .modal-field {
@@ -699,6 +700,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+  display: block;
 }
 
 .us-info {
