@@ -794,7 +794,7 @@ body {
   margin-left: 8px;
 }
 
-.checkbox-icon span {
+.checkbox-icon {
 }
 
 .modal-check-icon {
@@ -802,7 +802,7 @@ body {
   height: 16px;
   border-radius: 2px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
-  display: inline-flex;
+  display: inline-block;
   fill: transparent;
   align-items: center;
   justify-content: center;
