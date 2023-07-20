@@ -443,7 +443,7 @@ body {
 }
 
 .footer-soc {
-  padding-right: 80px;
+  margin-right: 80px;
 }
 .footer-box {
   display: flex;
