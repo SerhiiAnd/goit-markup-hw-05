@@ -795,10 +795,10 @@ body {
 }
 
 .checkbox-icon {
+  display: inline-flex;
 }
 
 .check-text {
-  display: inline-flex;
 }
 
 .modal-check-icon {
