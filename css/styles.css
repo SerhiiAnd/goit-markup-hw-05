@@ -443,6 +443,7 @@ body {
 }
 
 .footer-soc {
+  padding-right: 80px;
 }
 .footer-box {
   display: flex;
@@ -826,6 +827,8 @@ body {
 .sub {
   width: 453px;
   height: 80px;
+  display: block;
+  align-items: center;
 }
 .sub-text {
   margin-bottom: 16px;
@@ -845,7 +848,7 @@ body {
 }
 
 .foot-sub {
-  width: 264px;
+  min-width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -878,4 +881,15 @@ body {
 
 .sub-icon {
   margin-left: 16px;
+  fill: #ffffff;
+}
+
+.foot-sub::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.2;
+  letter-spacing: 0.04em;
 }
