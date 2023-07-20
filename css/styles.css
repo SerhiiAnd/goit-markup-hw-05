@@ -775,7 +775,7 @@ body {
 
 .check-text {
   letter-spacing: 0.04em;
-  display: inline-flex;
+  /*display: inline-flex;*/
   align-items: center;
   position: relative;
   color: #8e8f99;
@@ -796,9 +796,6 @@ body {
 
 .checkbox-icon {
   display: inline-flex;
-}
-
-.check-text {
 }
 
 .modal-check-icon {
